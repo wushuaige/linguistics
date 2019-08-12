@@ -12,8 +12,8 @@
 - `git branche -d`	delete分支
 - `git checkout newImage;`(分支名字，切换到指定分支)  `git commit;`	(再提交)
 
-
 # 远程仓库使用命令
+
 - `git clone;` (仓库克隆url)选择一个文件夹，执行命令，联网克隆到本地；
 - `comfirm` 继续
 - `remote branch name` 命名规范
@@ -32,7 +32,17 @@
 - `git merge o/master`    等等
 - 先抓取后更新到本地，git提供了一个专门完成此两个操作`git pull;`
 - `git fackTeamwork;`	可以指定提交的分支或数量  `git fakeTeamwork branch 3;` 提交3次记录到远程分支branch；
-- 
+
+# 项目常用命令
+
+- git branch 
+- git clone
+- git log --oneline --graph
+- git checkout
+- git branch -D
+- git branch -add
+- git push origin --delete 
+- git branch -a   查看删除后分支们
 
 
 
